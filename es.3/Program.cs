@@ -13,9 +13,9 @@ namespace es._3
             public string n;
             public float p;
         }
-        static void scrittura(struttura struttura, int x)
+        static void scrittura(struttura struttura, int x, int []a, ref int d)
         {
-            foreach (struttura struttura1 in struttura)
+            foreach(a)
             {
                 if (struttura.p > x)
                 {
@@ -28,6 +28,7 @@ namespace es._3
             struttura struttura = new struttura();
             Console.WriteLine("Inserire n prodotti");
             int d=int.Parse(Console.ReadLine());
+            int []a = new int[d];
             for (int i=0; i<d; i++)
             {
                 Console.WriteLine("Inserire nome");
